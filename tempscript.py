@@ -4,6 +4,7 @@ import os
 from time import sleep
 import signal
 import sys
+sys.path.append('/storage/.kodi/addons/virtual.rpi-tools/lib')
 import RPi.GPIO as GPIO
 pin = 18 # The pin ID, edit here to change it
 maxTMP = 55 # The maximum temperature in Celsius after which we trigger the fan
